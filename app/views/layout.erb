@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Document
+</title>
+</head> 
+<body>
+<h1> Hello from layout </h2>
+<% flash.keys.each do |type| %>
+    <div data-alert class="flash <%= type %> alert-box radius >
+    <%= flash[type] %> 
+    </div>
+    <% end %>
+<%= yield %>
+
+</body>
+</html>
