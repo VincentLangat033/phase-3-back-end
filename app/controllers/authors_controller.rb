@@ -17,13 +17,9 @@ class AuthorsController < ApplicationController
         user =@user
         user.to_json()
       end
-
-      post "/users" do
-        user=User.create(
-          name:params[:name],
-          email:params[:email],
-          password_digest:params[:password]
-        )
+ post "/users" do
+        @user=User.create(params)
+        user = @user
         user.to_json()
       end
     post '/signup' do 
