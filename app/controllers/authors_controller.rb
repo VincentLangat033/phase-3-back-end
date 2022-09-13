@@ -13,7 +13,8 @@ class AuthorsController < ApplicationController
     end
 
     get "/users" do 
-        user=User.all
+        @user=User.all
+        user =@user
         user.to_json()
       end
 
