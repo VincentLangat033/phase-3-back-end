@@ -11,6 +11,20 @@ class AuthorsController < ApplicationController
         erb :"users/signup"
 
     end
+
+    get "/users" do 
+        user=User.all
+        user.to_json()
+      end
+
+      post "/users" do
+        user=User.create(
+          name:params[:name],
+          email:params[:email],
+          password_digest:params[:password]
+        )
+        user.to_json()
+      end
     post '/signup' do 
         # binding.pry
 
