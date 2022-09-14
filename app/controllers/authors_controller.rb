@@ -22,6 +22,8 @@ class AuthorsController < ApplicationController
         user = @user
         user.to_json()
       end
+
+    
     post '/signup' do 
         # binding.pry
 
