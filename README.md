@@ -1,4 +1,4 @@
-## Active Records Association
+<!-- ## Active Records Association
 
  ## belongs to
 
@@ -12,4 +12,4 @@
 ### Association
   author => has many posts, has many categories through posts
   category => has many posts, has many authors through posts
-  post => belongs to an author, belongs to a category
+  post => belongs to an author, belongs to a category -->
