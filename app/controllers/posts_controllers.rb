@@ -36,6 +36,7 @@ patch '/houses/:id' do
 
 
 end
+
    
     delete '/houses/:id' do 
         # no view to render
