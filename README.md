@@ -48,7 +48,7 @@ Follow the below instructions to clone or contribute to this back end server.
 
 ## POOL HOUSE Repo
 
-- [DAM Repo Link](https://github.com/VincentLangat033/phase-3-back-end)
+- [PoolHouse Repo Link](https://github.com/VincentLangat033/phase-3-back-end)
 
 # Description
 Let us get a deep dive into how to configure routing in SINATRA Ruby.
